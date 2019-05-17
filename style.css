@@ -242,9 +242,16 @@ i:hover {
         justify-content: space-around;
         margin: 0;
     }
+    li{
+        marign-left: 2px;
+    }
+    .logo {
+        margin-left: 1px;
+    }
+        
 }
 
-@media screen and (max-width:910px) {
+@media screen and(min-width:496px) and (max-width:910px) {
     .services div {
         flex-direction: column;
         justify-content: center;
