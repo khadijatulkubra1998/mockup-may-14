@@ -1,0 +1,258 @@
+marquee {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin-bottom: 1px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    margin-top: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+i {
+    transition: 1s;
+    size: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    cursor: pointer;
+}
+footer:hover i {
+    color: palevioletred;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #4c4c4c;
+    justify-content: space-between;
+}
+
+.head {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+li {
+    margin-left: 25px;
+}
+
+.circle {
+    background-color: #e78690;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/floral.png);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.circle p {
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    padding: 21px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.circle button {
+    border: none;
+    background-color: black;
+    color: #e78690;
+    padding: 20px 45px;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+}
+
+.services {
+    background-color: #efece7;
+    background-image: url(images/floral.png);
+    padding: 20px;
+}
+
+figure i {
+    font-size: 60px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+.portfolio {
+    padding: 20px;
+    background-image: url(images/floral.png);
+    background-color: #ddceb4;
+}
+
+.portfolio p {
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    padding: 21px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.portfolio img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px
+}
+
+.container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container .medium {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#project {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    background-color: #141415e3;
+    position: relative;
+    top: -50px;
+}
+
+.portfolio figcaption i {
+    font-size: 15px;
+    display: block;
+}
+
+.portfolio figcaption button {
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: #141415e3;
+    color: white;
+    padding: 8px 8px;
+    margin-left: 8px;
+}
+
+#project:hover .overlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    opacity: 1;
+    padding: 75px 75px 90px 50px;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #afc7c6;
+    padding: 10px;
+    background-image: url(images/floral.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact button {
+    display: inline;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: #afc7c6;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.contact i {
+    font-size: 30px;
+}
+.contact button:hover {
+    background-color: black;
+    color: #fcdea6;
+}
+i:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:496px) {
+    .services div {
+        flex-direction: column;
+    }
+    .container div {
+        flex-direction: column;
+    }
+    header {
+        justify-content: space-around;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .services div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container div {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: row;
+    }
+}
