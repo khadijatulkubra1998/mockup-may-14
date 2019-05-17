@@ -41,7 +41,9 @@ header {
     flex-direction: row;
     background-color: #4c4c4c;
     justify-content: space-between;
+   
 }
+
 
 .head {
     list-style: none;
@@ -238,20 +240,15 @@ i:hover {
     .container div {
         flex-direction: column;
     }
-    header {
-        justify-content: space-around;
-        margin: 0;
-    }
     li {
-        marign-left: 2px;
+        margin: 2px;
     }
     .logo {
-        margin-left: 1px;
+        margin-left:1px;
     }
-        
 }
 
-@media screen and(min-width:496px) and (max-width:910px) {
+@media screen and (min-width:496px) and (max-width:910px) {
     .services div {
         flex-direction: column;
         justify-content: center;
