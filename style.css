@@ -232,7 +232,7 @@ i:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width:496px) {
+@media screen and (max-width:600px) {
     .services div {
         flex-direction: column;
     }
@@ -254,7 +254,7 @@ i:hover {
     }
 }
 
-@media screen and (min-width:496px) and (max-width:910px) {
+@media screen and (min-width:601px) and (max-width:910px) {
     .services div {
         flex-direction: column;
         justify-content: center;
