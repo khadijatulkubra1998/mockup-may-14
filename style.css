@@ -187,7 +187,7 @@ figure {
     justify-content: center;
     position: absolute;
     opacity: 1;
-    padding: 75px 75px 90px 50px;
+    padding: 85px 65px 85px 65px;
     align-items: center;
     margin-top: 50px;
     border-radius: 10px;
@@ -242,15 +242,27 @@ i:hover {
     .portfolio img {
         width: 200px;
     }
-    #project:hover .overlay {
-        padding: 85px 40px 80px 35px;
-    }
-
+   
     li {
         margin: 2px;
     }
     .logo {
         margin-left: 2px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .circle p {
+        font-size: 5px
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .services p {
+        font-size: 10px;
+    }
+    .portfolio p {
+        font-size: 10px;
     }
 }
 
@@ -265,4 +277,17 @@ i:hover {
     .container {
         flex-direction: row;
     }
+}
+
+@media screen and (min-width: 300px) and (max-width:359px) {
+    #project:hover .overlay {
+        padding: 85px 40px 85px 40px;
+    }
+
+}
+@media screen and (min-width: 360px) and (max-width:375px) {
+    #project:hover .overlay {
+        padding: 85px 48px 85px 48px;
+    }
+
 }
